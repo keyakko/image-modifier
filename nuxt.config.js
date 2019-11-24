@@ -52,5 +52,8 @@ export default {
     extend (config, ctx) {
     }
   },
-  buildDir: 'docs'
+  buildDir: 'docs',
+  router: {
+    base: '/image-modifier/'
+  }
 }
