@@ -4,7 +4,6 @@
       <div class="my-12">
         <input type="file" name="" id="" @change="onImageChanged" />
       </div>
-      <img v-if="image_original && image_original.thumbnail != ''" :src="image_original.thumbnail" alt="" />
       <vue-compare-image
         v-if="image_modified !== ''"
         :leftImage="image_original.thumbnail"
