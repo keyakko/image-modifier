@@ -51,5 +51,6 @@ export default {
     */
     extend (config, ctx) {
     }
-  }
+  },
+  buildDir: 'docs'
 }
