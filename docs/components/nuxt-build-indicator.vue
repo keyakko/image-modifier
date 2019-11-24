@@ -26,7 +26,7 @@ export default {
     }
   },
   computed: {
-    options: () => (false),
+    options: () => ({"position":"bottom-right","backgroundColor":"#2E495E","color":"#00C48D"}),
     indicatorStyle () {
       const [ d1, d2 ] = this.options.position.split('-')
       return {
@@ -77,7 +77,7 @@ export default {
         return
       }
       this._connecting = true
-      this.sse = new EventSource('/_loading/sse')
+      this.sse = new EventSource('/image-modifier/_loading/sse')
       this.sse.addEventListener('message', event => this.onSseMessage(event))
     },
     onSseMessage (message) {
