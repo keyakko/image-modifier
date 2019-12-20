@@ -14,7 +14,7 @@
     "@nuxtjs/pwa": "^3.0.0-0",
     "nuxt": "^2.0.0",
     "vue-compare-image": "^0.2.0",
-    "wasm-imagemagick": "^1.2.0"
+    "wasm-imagemagick": "^1.2.1"
   },
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^1.0.0"
